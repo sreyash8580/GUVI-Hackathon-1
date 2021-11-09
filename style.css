@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     /* background-color: rgb(240, 235, 236);  */
+     opacity: 1.7;
+}
+
+#list{
+    /* margin-left: 30px; */
+    /* border: 2px solid black; */
+    margin-top: 50px;
+
+}
+
+h5{
+    margin: 10px;
+    color: #ff7777;
+    text-align: center;
+    height: 20px;
+    /* border: 2px solid black; */
+    background-color: #1a3e3f;
+    font-size: 15px;
+}
+
+p{
+    margin: 10px;
+    text-align: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    color: #a000b4;
+    background-color: #ffe1e3;
+}
+
+button{
+    margin: 5px;
+    padding: 3px;
+    background-color: #ffd8a4;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-left: 70px;
+    color: #4b4040;
+    text-transform: uppercase;
+}
+
+.card {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(255 165 165);
+    border-radius: 5px;
+    margin: 25px !important;
+}
+
+#popout {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    /* height: 100%; */
+    position:fixed;
+    /* position:sticky; */
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+#popbox {
+    height: 226px;
+    width: 400px;
+    /* background-color: #9db54b; */
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    position: absolute;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+img{
+    height: 300px;
+    width: 600px;
+    margin-top: 250px;
+    /* margin: 100px;
+    padding: 0; */
+}
+
+#closeBtn{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #630363;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;  
+}
+
+#btn{
+    margin-top: 50px;
+    margin-left: 0;
+    border-radius: 5px;
+    background-color: #3684d0;
+    color: white;
+    width: 10%;
+    height: 33px;
+}
+
+#ph{
+    width: 70%;
+    height: 33px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ #close-btn{
+     margin-left: 400px !important;
+     margin-top: 400px !important;
+     
+ }
